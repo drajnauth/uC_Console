@@ -15,22 +15,21 @@ python uC_Console_TKv0.1b.py
 
 Microcontroller Setup:
 ======================
-Numbers that start with # will be captured by the python program provided you indicated that its to be captured.  Currently it can capture
-data set as follows
+Numbers that start with # will be captured by the python program provided you indicated that its to be captured.  Currently it can capture data sets as follows
 
-Single data points (float or integer) that will be plotted in real time
+A. Single data points (float or integer) that will be plotted in real time <br />
 \#1<br />
 \#2.2222<br />
 \#0.1234<br />
 
-X and Y data point that will be ploted once the "|" character is sent
+B. X and Y data points that will be ploted once the "|" character is sent<br />
 \#1,1<br />
 \#2,4.110<br />
 \#3,9<br />
 \#4,16.001<br />
 \|<br />
 
-Line X, Y series.  For each Z values a X,Y line will be generated (e.g. Transistor Curve Trace).  A new Z series will be captures what a "=" character is recived and the the capture will end and plot generated when the "|" character is received.
+C. Line X, Y series.  For each Z values a X,Y line will be generated (e.g. Transistor Curve Trace).  A new Z series will be captures what a "=" character is recived and the the capture will end and plot generated when the "|" character is received.<br />
 \#1,1,1<br />
 \#2,2,1<br />
 \#3,3,1<br />
