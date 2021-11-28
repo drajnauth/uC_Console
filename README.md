@@ -54,7 +54,7 @@ Steps to use the program are:
 1. Select com port and baud rate, then click on the "Connect" check box.  To disconnect from the com port, clear the checkbox. 
 
 2. Once connected, you next select the type of data capture from the drop down. You can capture single values "y" or two values "x,y" or three values "x,y,z".  There is also a choice to capture and plot data in real time "Live".  Choices available in dropdown are:<br />
-x,y<br /><br />
+x,y<br />
 x,y,x<br />
 y<br />
 Live x,y<br />
