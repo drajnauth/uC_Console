@@ -53,12 +53,12 @@ The python program is faily easy to use.  When the program first starts it enume
 Steps to use the program are:
 1. Select com port and baud rate, then click on the "Connect" check box.  To disconnect from the com port, clear the checkbox. 
 
-2. Once connected, you next select the type of data capture from the drop down. You can capture single values "y" or two values "x,y" or three values "x,y,z".  There is also a choice to capture and plot data in real time "Live".  Choices available in dropdown are:
-x,y
-x,y,x
-y
-Live x,y
-Live y
+2. Once connected, you next select the type of data capture from the drop down. You can capture single values "y" or two values "x,y" or three values "x,y,z".  There is also a choice to capture and plot data in real time "Live".  Choices available in dropdown are:<br />
+x,y<br /><br />
+x,y,x<br />
+y<br />
+Live x,y<br />
+Live y<br />
 
 3. Check the "Plot" checkbox to generate a plot and/or check the "Save CSC" checkbox to save to a Excel CSV file.  Once the "Save CSV" option is selected a dialog is presented to select directory to save the file. You also need to enter the file name that will be created.  Once either of these are selected, the Microcontoller does the test.
 
