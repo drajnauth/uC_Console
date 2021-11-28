@@ -19,34 +19,34 @@ Numbers that start with # will be captured by the python program provided you in
 data set as follows
 
 Single data points (float or integer) that will be plotted in real time
-#1
-#2.2222
-#0.1234
+\#1
+\#2.2222
+\#0.1234
 
 X and Y data point that will be ploted once the "|" character is sent
-#1,1
-#2,4.110
-#3,9
-#4,16.001
-|
+\#1,1
+\#2,4.110
+\#3,9
+\#4,16.001
+\|
 
 Line X, Y series.  For each Z values a X,Y line will be generated (e.g. Transistor Curve Trace).  A new Z series will be captures what a "=" character is recived and the the capture will end and plot generated when the "|" character is received.
-#1,1,1
-#2,2,1
-#3,3,1
-#4,4,10
-=
-#1,1,2
-#2,4.110,2
-#3,9,2
-#4,16.001,2
-=
-#1,1,3
-#2,8,3
-#3,27,3
-#4,256,3
-=
-|
+\#1,1,1
+\#2,2,1
+\#3,3,1
+\#4,4,10
+\=
+\#1,1,2
+\#2,4.110,2
+\#3,9,2
+\#4,16.001,2
+\=
+\#1,1,3
+\#2,8,3
+\#3,27,3
+\#4,256,3
+\=
+\|
 
 Python Program Running on PC:
 =============================
