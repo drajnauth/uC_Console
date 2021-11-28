@@ -49,11 +49,9 @@ C. Line X, Y series.  For each Z values a X,Y line will be generated (e.g. Trans
 
 Python Program Running on PC:
 =============================
-The python program is faily easy to use.  
-Steps are:
+The python program is faily easy to use.  When the program first starts it enumerates and displays all com ports available.
+Steps to use the program are:
 1. Select com port and baud rate, then click on the "Connect" check box.  To disconnect from the com port, clear the checkbox. 
-
-When the program first starts it enumerates and display all com ports available.
 
 2. Once connected, you next select the type of data capture from the drop down. You can capture single values "y" or two values "x,y" or three values "x,y,z".  There is also a choice to capture and plot data in real time "Live".  Choices available in dropdown are:
 x,y
