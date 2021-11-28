@@ -31,10 +31,10 @@ X and Y data point that will be ploted once the "|" character is sent
 \|
 
 Line X, Y series.  For each Z values a X,Y line will be generated (e.g. Transistor Curve Trace).  A new Z series will be captures what a "=" character is recived and the the capture will end and plot generated when the "|" character is received.
-\#1,1,1
-\#2,2,1
-\#3,3,1
-\#4,4,10
+\*#1,1,1*\
+\\#2,2,1
+\\#3,3,1
+\\#4,4,10
 \=
 \#1,1,2
 \#2,4.110,2
